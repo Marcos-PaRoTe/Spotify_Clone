@@ -1,3 +1,15 @@
 {
-  "client_id":  "1f30da67cc0c45d6a83e1c6b4240d9f6"
+  "client_id":  "1f30da67cc0c45d6a83e1c6b4240d9f6",
+  "authEndpoint": "https://accounts.spotify.com/authorize",
+  "redirectUrl": "http://localhost:4200/login/",
+  "scopes": [
+    "user-read-currently-playing",
+    "user-read-recently-played",
+    "user-read-playback-state",
+    "user-top-read",
+    "user-modify-playback-state",
+    "user-library-read",
+    "playlist-read-private",
+    "playlist-read-collaborative"
+  ]
 }
