@@ -1,7 +1,7 @@
 {
   "client_id":  "1f30da67cc0c45d6a83e1c6b4240d9f6",
   "authEndpoint": "https://accounts.spotify.com/authorize",
-  "redirectUrl": "http://localhost:4200/login/",
+  "redirectUri": "http://localhost:4200/login/",
   "scopes": [
     "user-read-currently-playing",
     "user-read-recently-played",
